@@ -1,2 +1,8 @@
 A simple example of how to split a table that is longer than the page to
 multiple pages for print using mootools. Meant for use with wkhtmltopdf.
+
+git clone git://github.com/f0rk/table_break.git
+cd table_break
+python -mSimpleHTTPServer
+wkhtmltopdf 'http://localhost:8000/' test.pdf
+
