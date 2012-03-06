@@ -1,0 +1,2 @@
+A simple example of how to split a table that is longer than the page to
+multiple pages for print using mootools. Meant for use with wkhtmltopdf.
